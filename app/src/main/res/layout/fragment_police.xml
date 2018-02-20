@@ -20,7 +20,7 @@
            android:layout_width="150dp"
            android:layout_height="150dp">
 
-
+<!--Station-->
            <ImageView
                android:src="@drawable/station1"
                android:layout_width="match_parent"
@@ -34,9 +34,9 @@
            android:layout_width="150dp"
            android:layout_height="150dp">
 
-
+<!--Station2-->
            <ImageView
-               android:src="@drawable/station1"
+               android:src="@drawable/station2"
                android:layout_width="match_parent"
                android:layout_height="match_parent" />
 
@@ -58,9 +58,9 @@
                 android:layout_width="150dp"
                 android:layout_height="150dp">
 
-
+                 <!--Station3-->
                 <ImageView
-                    android:src="@drawable/station1"
+                    android:src="@drawable/station3"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent" />
 
@@ -71,9 +71,9 @@
                 android:layout_width="150dp"
                 android:layout_height="150dp">
 
-
+                 <!--Station4-->
                 <ImageView
-                    android:src="@drawable/station1"
+                    android:src="@drawable/station4"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent" />
 
