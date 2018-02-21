@@ -58,8 +58,9 @@
 
         <!--Station2-->
 
-           <!--Titie-->
+           <!--Title-->
            <TextView
+               android:id="@+id/textViewStation2"
                android:layout_alignParentBottom="true"
                android:padding="5dp"
                android:gravity="center_horizontal"
@@ -70,12 +71,12 @@
                android:text="@string/station2"
                android:layout_width="match_parent"
                android:layout_height="wrap_content"
-               android:id="@+id/textView" />
+                />
 
            <ImageView
+               android:id="@+id/imageV1ewStation2"
                android:layout_width="match_parent"
                android:layout_height="match_parent"
-               android:layout_above="@+id/textView"
                android:layout_alignParentLeft="true"
                android:layout_alignParentStart="true"
                android:src="@drawable/station2" />
@@ -101,13 +102,15 @@
 
                  <!--Station3-->
                 <ImageView
+                    android:id="@+id/imageV1ewStation3"
                     android:src="@drawable/station3"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent" />
 
-                <!--Titie-->
+                <!--Title-->
 
                 <TextView
+                    android:id="@+id/textViewStation3"
                     android:layout_alignParentBottom="true"
                     android:padding="5dp"
                     android:gravity="center_horizontal"
@@ -129,13 +132,15 @@
 
                  <!--Station4-->
                 <ImageView
+                    android:id="@+id/imageV1ewStation4"
                     android:src="@drawable/station4"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent" />
 
-                <!--Titie-->
+                <!--Title-->
 
                 <TextView
+                    android:id="@+id/textViewStation4"
                     android:layout_alignParentBottom="true"
                     android:padding="5dp"
                     android:gravity="center_horizontal"
