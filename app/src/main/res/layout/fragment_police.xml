@@ -26,6 +26,7 @@
 
            <!--Station-->
            <ImageView
+               android:id="@+id/imageV1ewStation1"
                android:src="@drawable/station1"
                android:layout_width="match_parent"
                android:layout_height="match_parent" />
@@ -33,6 +34,8 @@
            <!--Titie-->
 
            <TextView
+               android:clickable="true"
+               android:id="@+id/textViewStation1"
                android:layout_alignParentBottom="true"
                android:padding="5dp"
                android:gravity="center_horizontal"
@@ -40,7 +43,7 @@
                android:background="#82000000"
                android:textStyle="bold"
                android:textSize="18sp"
-               android:text="Station 1"
+               android:text="@string/station1"
                android:layout_width="match_parent"
                android:layout_height="wrap_content" />
 
@@ -53,7 +56,7 @@
            android:layout_width="@dimen/icon"
            android:layout_height="@dimen/icon">
 
-<!--Station2-->
+        <!--Station2-->
 
            <!--Titie-->
            <TextView
@@ -64,7 +67,7 @@
                android:background="#82000000"
                android:textStyle="bold"
                android:textSize="18sp"
-               android:text="Station 2"
+               android:text="@string/station2"
                android:layout_width="match_parent"
                android:layout_height="wrap_content"
                android:id="@+id/textView" />
@@ -112,7 +115,7 @@
                     android:background="#82000000"
                     android:textStyle="bold"
                     android:textSize="18sp"
-                    android:text="Station 3"
+                    android:text="@string/station3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
 
@@ -140,7 +143,7 @@
                     android:background="#82000000"
                     android:textStyle="bold"
                     android:textSize="18sp"
-                    android:text="Station 4"
+                    android:text="@string/station4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
 
