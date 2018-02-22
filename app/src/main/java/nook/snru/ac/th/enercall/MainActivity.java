@@ -11,6 +11,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 
+import nook.snru.ac.th.enercall.fragment.HospilalFragment;
 import nook.snru.ac.th.enercall.fragment.MainFragment;
 
 public class MainActivity extends AppCompatActivity {
@@ -46,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 getSupportFragmentManager().beginTransaction()
-                        .replace(R.id.contentMainFragment,new MainFragment()).commit();
+                        .replace(R.id.contentMainFragment,new HospilalFragment()).commit();
                 drawerLayout.closeDrawers();
             }
         });
