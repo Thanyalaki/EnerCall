@@ -1,12 +1,14 @@
 package nook.snru.ac.th.enercall.fragment;
 
 
+import android.graphics.drawable.RippleDrawable;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ListView;
 
 import nook.snru.ac.th.enercall.R;
 
@@ -19,7 +21,11 @@ public class HospilalFragment extends Fragment{
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-    }
+
+//        Create ListView
+        ListView listView = getView().findViewById(R.id.listViewHopotal);
+
+    }//Main Method
 
     @Nullable
     @Override
